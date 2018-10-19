@@ -13,6 +13,6 @@ li {
   text-decoration: none;
 }
 
-.navbar a:hover {
+.navbar a:hover, .navbar .active {
   background-color: #ff63de;
 }
