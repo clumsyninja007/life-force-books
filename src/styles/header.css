@@ -1,0 +1,32 @@
+header {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.tagline, .banner {
+  flex-basis: 80%;
+}
+
+.tagline {
+  text-align: center;
+  background: gray;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tagline p {
+  font-family: 'Tangerine', 'Merriweather', serif;
+  font-size: 38px;
+  color: rgb(233, 233, 233);
+}
+
+@media only screen and (max-width: 1119px) {
+  .tagline, .banner a img {
+    width: 100vw;
+  }
+}

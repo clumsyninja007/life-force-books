@@ -1,0 +1,18 @@
+li {
+  list-style-type: none;
+
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.navbar a {
+  padding: 0 20px 0 20px;
+  height: 46px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ff63de;
+}
