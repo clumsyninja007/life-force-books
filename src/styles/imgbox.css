@@ -1,5 +1,29 @@
-.imgBox {
+.imageBox {
   display: flex;
-  flex-direction: row;
+  
   text-align: left;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.imageText {
+  margin-left: 20px;
+}
+
+.imageText h3 {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .imageBox {
+    flex-wrap: wrap;
+  }
+
+  figure img {
+    margin:auto;
+  }
+
+  .imageText {
+    margin-left: 0;
+  }
 }

@@ -5,6 +5,7 @@ import { Switch, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
 import Navitem from './components/navitem';
 import Header from './components/header';
+import Footer from './components/footer';
 
 import mainLogo from './images/lfb-apexbanner.jpg';
 
@@ -19,27 +20,49 @@ class App extends Component {
         <Navbar navs={
           <ul>
             <Navitem text="HOME" location="/" />
-            <Navitem text="TEST" location="/test" />
+            <Navitem text="LIFE FORCE SCIENCE" location="/life-force-science" />
+            <Navitem text="ENERGY CULTIVATION" location="/energy-cultivation" />
+            <Navitem text="STORE" location="/store" />
+            <Navitem text="SISTER SITES" location="/sister-sites" />
+            <Navitem text="CALENDAR" location="/calendar" />
+            <Navitem text="ANNOUCNEMENTS" location="/annoucements" />
           </ul>
         } />
         <div className="content">
-          <Header tagline={tagline} mainLogo={mainLogo} />
-          <div className="grid">
-            <div className="col-sm"></div>
-            <div className="col-md">
-              <Switch>
-                <Route
-                  exact path="/"
-                  render={(props) => <Home />}
-                />
-                <Route
-                  exact path="/test"
-                  render={(props) => <div>Blah</div>}
-                />
-              </Switch>
-            </div>
-            <div className="col-sm"></div>
+          <Header tagline={tagline} mainLogo={mainLogo} alt="Life Force Books Banner" />
+          <div className="pageContent">
+            <Switch>
+              <Route
+                exact path="/"
+                render={(props) => <Home />}
+              />
+              <Route
+                exact path="/life-force-science"
+                render={(props) => <div>Blah</div>}
+              />
+              <Route
+                exact path="/energy-cultivation"
+                render={(props) => <div>Blah</div>}
+              />
+              <Route
+                exact path="/store"
+                render={(props) => <div>Blah</div>}
+              />
+              <Route
+                exact path="/sister-sites"
+                render={(props) => <div>Blah</div>}
+              />
+              <Route
+                exact path="/calendar"
+                render={(props) => <div>Blah</div>}
+              />
+              <Route
+                exact path="/annoucements"
+                render={(props) => <div>Blah</div>}
+              />
+            </Switch>
           </div>
+          <Footer />
         </div>
       </div>
     );

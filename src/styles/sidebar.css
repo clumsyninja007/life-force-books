@@ -1,0 +1,20 @@
+.sidebar {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+aside {
+  margin-left: 30px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .sidebar {
+    flex-direction: column;
+  }
+
+  aside {
+    margin: auto;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,18 @@
+.pageFooter {
+  display: flex;
+  justify-content: center;
+}
+
+.pageFooter div {
+  text-align: center;
+  background-color: rgba(0,0,0,0.6);
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #cdcdcd;
+  width: 1200px;
+}
+
+@media only screen and (max-width: 1119px) {
+  .pageFooter {
+    width: 100vw;
+  }
+}

@@ -4,9 +4,10 @@
   min-height: 100vh;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1200px 1fr;
+.content {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 65px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,12 +23,7 @@ h1 {
 p {
   font-family: 'Merriweather', serif;
   font-size: 18px;
-}
-
-@media only screen and (max-width: 1119px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
+  line-height: 30px;
 }
 
 a {
@@ -40,6 +36,9 @@ a:hover {
   text-decoration: none;
 }
 
-.sansLink {
-  font-family: 'Roboto Condensed', sans-serif;
+@media only screen and (max-width: 1199px) {
+  .pageContent {
+    margin: auto;
+    width: 90vw;
+  }
 }

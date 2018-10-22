@@ -1,19 +1,12 @@
-header {
-  margin-top: 65px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
 .tagline, .banner {
   flex-basis: 80%;
 }
 
 .tagline {
   text-align: center;
-  background: gray;
+  background: rgba(0, 0, 0, 0.6);
   height: 92px;
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,11 +14,13 @@ header {
 
 .tagline p {
   font-family: 'Tangerine', 'Merriweather', serif;
-  font-size: 38px;
-  color: rgb(233, 233, 233);
+  line-height: 44px;
+  color: #e9e9e9;
+
+  font-size: 40px;
 }
 
-@media only screen and (max-width: 1119px) {
+@media only screen and (max-width: 1199px) {
   .tagline, .banner a img {
     width: 100vw;
   }

@@ -4,10 +4,18 @@ import '../styles/imgbox.css';
 class ImgBox extends Component {
   render() {
     return (
-      <div className="imageBox">
-        <img src={this.props.image} />
-        <p>This is a guidebook to using The Secret of the Golden Flower (SGF) as a meditation method for activating kundalini. An authoritative interpretation by someone, who, unlike Jung, Cleary, or Wilhelm, actually used the method to activate kundalini. This book compares their translations and commentaries with JJ Semple's empirical practice of the method.</p>
-      </div>
+      <figure className="imageBox">
+        <img
+          src={this.props.image}
+          width={this.props.width}
+          height={this.props.height}
+          alt={this.props.alt}
+        />
+        <figcaption className="imageText">
+          <h3>{this.props.title}</h3>
+          <p>{this.props.body}</p>
+        </figcaption>
+      </figure>
     );
   }
 }
