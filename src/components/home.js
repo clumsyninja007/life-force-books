@@ -24,6 +24,7 @@ class Home extends Component {
             <header>
               <h1>Kundalini Awakening and Meditation Books</h1>
             </header>
+            <script async="true" src="https://cse.google.com/cse.js?cx=005039797103311972377:t62qmnqrx-i" type="text/javascript"></script>
             <div dangerouslySetInnerHTML={gcse()} />
             <p>Life Force Books celebrates authors investigating the scientific aspects of
               Kundalini~Life Force energy. Our mission is publishing Kundalini books, books
