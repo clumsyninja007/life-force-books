@@ -7,13 +7,12 @@ class ImgBox extends Component {
       <figure className="imageBox">
         <img
           src={this.props.image}
-          width={this.props.width}
-          height={this.props.height}
+          style={{width:this.props.width,height:this.props.height}}
           alt={this.props.alt}
         />
-        <figcaption className="imageText">
+        <figcaption className="imageBoxText">
           <h3>{this.props.title}</h3>
-          <p>{this.props.body}</p>
+          {this.props.body}
         </figcaption>
       </figure>
     );

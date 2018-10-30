@@ -6,17 +6,17 @@ import {NavLink} from 'react-router-dom';
 class Navitem extends Component {
   render() {
     return (
-      <NavLink
-        exact={true}
-        role="button"
-        activeClassName="active"
-        className="navLink"
-        to={this.props.location}
-      >
-        <li className="navitem">
+      <li className="navitem">
+        <NavLink
+          exact={true}
+          role="button"
+          activeClassName="active"
+          className="navLink"
+          to={this.props.location}
+        >
           {this.props.text}
-        </li>
-      </NavLink>
+        </NavLink>
+      </li>
     );
   }
 }

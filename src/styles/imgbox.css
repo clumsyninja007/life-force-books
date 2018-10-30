@@ -6,12 +6,16 @@
   margin-bottom: 20px;
 }
 
-.imageText {
+.imageBoxText {
   margin-left: 20px;
 }
 
-.imageText h3 {
+.imageBoxText h3 {
   margin-top: 0;
+}
+
+.imageBoxText a {
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -23,7 +27,7 @@
     margin:auto;
   }
 
-  .imageText {
+  .imageBoxText {
     margin-left: 0;
   }
 }

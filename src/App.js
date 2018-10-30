@@ -9,7 +9,8 @@ import Footer from './components/footer';
 
 import mainLogo from './images/lfb-apexbanner.jpg';
 
-import Home from './components/home'
+import Home from './components/home';
+import LifeForceScience from './components/life-force-science';
 
 const tagline = "It’s the day after your Kundalini awakening. Now what are you going to do?";
 
@@ -38,7 +39,7 @@ class App extends Component {
               />
               <Route
                 exact path="/life-force-science"
-                render={(props) => <div>Blah</div>}
+                render={(props) => <LifeForceScience />}
               />
               <Route
                 exact path="/energy-cultivation"
@@ -46,6 +47,14 @@ class App extends Component {
               />
               <Route
                 exact path="/store"
+                render={(props) => <div>Blah</div>}
+              />
+              <Route
+                exact path="/store/seminal-retention-and-higher-consciousness"
+                render={(props) => <div>Blah</div>}
+              />
+              <Route
+                exact path="/store/the-secret-of-the-golden-flower-a-kundalini-meditation-method"
                 render={(props) => <div>Blah</div>}
               />
               <Route

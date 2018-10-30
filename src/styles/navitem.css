@@ -1,10 +1,12 @@
-li {
-  list-style-type: none;
-
+.navbar li a {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 18px;
   font-weight: 600;
   color: white;
+}
+
+.navbar li {
+  list-style-type: none;
 }
 
 .navbar a {

@@ -27,9 +27,9 @@ class Sidebar extends Component {
             height="500"
             style={{border:'none', overflow:'hidden'}}
             scrolling="no"
-            frameborder="0"
-            allowTransparency="true"
+            frameBorder="0"
             allow="encrypted-media"
+            title="Life Force Books Facebook Timeline"
           >
           </iframe>
         </aside>
