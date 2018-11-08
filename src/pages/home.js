@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ImgBox from './imgBox';
-import Sidebar from './sidebar';
+import ImgBox from '../components/imgBox/imgBox';
+import Sidebar from '../components/sidebar/sidebar';
 
 import sgf from '../images/sgf-233x350_med.png';
 import km from '../images/kundalinifinal-fjm_low_res_med.jpeg';
@@ -11,8 +11,10 @@ import sem from '../images/sem-frontcover_med.jpeg';
 import fek from '../images/fek-frontcover_med.jpeg';
 import gop from '../images/gop-frontcover_med.jpeg';
 
-import InnerLink from './innerLink';
-import OuterLink from './outerLink';
+import InnerLink from '../components/innerLink';
+import OuterLink from '../components/outerLink';
+
+import BuyFromAmazon from '../components/buyFromAmazon/buyFromAmazon';
 
 function gcse() {
   return {__html: '<gcse:search></gcse:search><script async={true} src="https://cse.google.com/cse.js?cx=005039797103311972377:t62qmnqrx-i" type="text/javascript"></script>'};
@@ -55,25 +57,29 @@ class Home extends Component {
               width="145px"
               height="224px"
               alt="The Secret of the Golden Flower: A Kundalini Mediation Method book cover"
-              title={<InnerLink content="The Secret of the Golden Flower: A Kundalini Mediation Method" href="/store/the-secret-of-the-golden-flower-a-kundalini-meditation-method" />}
-              body={<p>This is a guidebook to using <i>The Secret of the Golden Flower</i> (SGF) 
+              title="The Secret of the Golden Flower: A Kundalini Mediation Method"
+              href="/store/the-secret-of-the-golden-flower-a-kundalini-meditation-method"
+              body={<div><p>This is a guidebook to using <i>The Secret of the Golden Flower</i> (SGF) 
                     as a meditation method for activating kundalini. An authoritative
                     interpretation by someone, who, unlike Jung, Cleary, or Wilhelm, actually
                     used the method to activate kundalini. This book compares their translations
-                    and commentaries with JJ Semple's empirical practice of the method.</p>}
+                    and commentaries with JJ Semple's empirical practice of the method.</p>
+                    <BuyFromAmazon href="https://amzn.to/2Ox4OuM?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" /></div>}
             />
             <ImgBox
               image={km}
               width="145px"
               height="224px"
               alt="Kundalini Musings book cover"
-              title={<InnerLink content="Kundalini Musings" href="/store/kundalini-musings" />}
-              body={<p>More and more people now acknowledge kundalini as scientifically factual with
+              title="Kundalini Musings"
+              href="/store/kundalini-musings"
+              body={<div><p>More and more people now acknowledge kundalini as scientifically factual with
                     its own anatomical, physiological, and embryological actualities. Why? People
                     have realized that kundalini is a biological process, not a belief system. <b><i>Kundalini Musings</i></b> (Life Force Books, 2018)
                     is a compendium of kundalini knowledge
                     and experience, consisting of 82 essays written over the past seven years. Each
-                    essay has been edited and updated to reflect a broad spectrum of kundalini research.</p>}
+                    essay has been edited and updated to reflect a broad spectrum of kundalini research.</p>
+                    <BuyFromAmazon href="https://amzn.to/2MGPSZx?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" /></div>}
             />
             <ImgBox
               image={dgf}
@@ -151,7 +157,8 @@ class Home extends Component {
               width="145px"
               height="224px"
               alt="Kundalini: The Evolutionary Energy in Man book cover"
-              title={<OuterLink content="Kundalini: The Evolutionary Energy in Man" href="https://amzn.to/2C2xvhB" />}
+              title="Kundalini: The Evolutionary Energy in Man"
+              href="https://amzn.to/2C2xvhB"
               body={<p>JJ Semple met Gopi Krishna in 1977 on a visit to Kashmir, four years after his own Kundalini awakening.
                     After relating his Kundalini experience to Krishna, they talked about the effects of sexual activity on
                     kundalini energy, diet, the stress of work, travel, handling illness, and exercise. In his extraordinary

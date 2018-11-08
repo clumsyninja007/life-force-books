@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Image from './image';
-import Sidebar from './sidebar';
+import Image from '../components/image/image';
+import Sidebar from '../components/sidebar/sidebar';
 
 import yoga from '../images/yogaretreat_med.jpeg';
 

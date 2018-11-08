@@ -1,0 +1,51 @@
+.navbar {
+  background-color: rgba(0,0,0,0.7);
+  min-height: 46px;
+  min-width: 96vw;
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  z-index: 10;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  min-height: 46px;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+  .navbar button.icon {
+    display: block;
+    text-align: center;
+    height: 46px;
+    background: none;
+    border: 0;
+    color: white;
+    font-size: 22px;
+  }
+
+  .navbar.responsive button.icon {
+    text-align: center;
+  }
+  .navbar.responsive ul {
+    float: flex;
+    display: block;
+    text-align: left;
+  }
+}

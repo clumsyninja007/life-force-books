@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import '../styles/signupWidget.css';
+import './signupWidget.css';
 
-import envPlain from '../images/EnvSignUp-Plain.jpg';
+import envPlain from '../../images/EnvSignUp-Plain.jpg';
 
 let formStyle = {
   backgroundImage: `url(${envPlain})`,
@@ -75,7 +75,7 @@ class SignupWidget extends Component {
             placeholder="Email"
             required
           />
-          <input type="submit" value="Subscribe To Our Newsletter!" />
+          <button type="submit">Subscribe To Our Newsletter!</button>
         </form>
       );
     }

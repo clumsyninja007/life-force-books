@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
-import './styles/App.css';
+import './App.css';
 import { Switch, Route } from 'react-router-dom';
 
-import Navbar from './components/navbar';
-import Navitem from './components/navitem';
-import Header from './components/header';
-import Footer from './components/footer';
+import Navbar from './components/navbar/navbar';
+import Navitem from './components/navitem/navitem';
+import Header from './components/header/header';
+import Footer from './components/footer/footer';
 
 import mainLogo from './images/lfb-apexbanner.jpg';
 
-import Home from './components/home';
-import LifeForceScience from './components/life-force-science';
+import Home from './pages/home';
+import LifeForceScience from './pages/life-force-science';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
 
 const tagline = "It’s the day after your Kundalini awakening. Now what are you going to do?";
 
@@ -23,10 +26,10 @@ class App extends Component {
             <Navitem text="HOME" location="/" />
             <Navitem text="LIFE FORCE SCIENCE" location="/life-force-science" />
             <Navitem text="ENERGY CULTIVATION" location="/energy-cultivation" />
-            <Navitem text="STORE" location="/store" />
+            <Navitem text={<div>STORE&nbsp;<FontAwesomeIcon icon={faCaretDown} /></div>} location="/store" />
             <Navitem text="SISTER SITES" location="/sister-sites" />
             <Navitem text="CALENDAR" location="/calendar" />
-            <Navitem text="ANNOUCNEMENTS" location="/annoucements" />
+            <Navitem text={<div>ANNOUNCEMENTS&nbsp;<FontAwesomeIcon icon={faCaretDown} /></div>} location="/announcements" />
           </ul>
         } />
         <div className="content">

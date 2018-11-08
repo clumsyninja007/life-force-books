@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/footer.css';
+import './footer.css';
 
 import {NavLink} from 'react-router-dom';
 

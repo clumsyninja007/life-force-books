@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import SignupWidget from './signupWidget';
-import '../styles/sidebar.css';
+import SignupWidget from '../signupWidget/signupWidget';
+import './sidebar.css';
 
 class Sidebar extends Component {
   render() {
