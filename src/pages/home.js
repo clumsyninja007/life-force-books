@@ -87,11 +87,13 @@ class Home extends Component {
               height="224px"
               alt="Deciphering the Golden Flower One Secret at a Time book cover"
               title="Deciphering the Golden Flower One Secret at a Time"
-              body={<p>Curiosity and circumstance often propel individuals beyond the confines of their upbringing,
+              href="/store/deciphering-the-golden-flower"
+              body={<div><p>Curiosity and circumstance often propel individuals beyond the confines of their upbringing,
                     dumping them into unfamiliar, unexpected life situations. Thus was JJ Semple transported into
                     a trial-and-error process of self-discovery that took him from the East Coast Brahman
                     establishment, to France, to a meeting with Gopi Krishna in India. What he found along the way
-                    was Kundalini, the biological basis of science and religion.</p>}
+                    was Kundalini, the biological basis of science and religion.</p>
+                    <BuyFromAmazon href="https://amzn.to/2xpm6Tj?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" /></div>}
             />
             <ImgBox
               image={boc}
@@ -99,11 +101,13 @@ class Home extends Component {
               height="224px"
               alt="The Biology of Consciousness book cover"
               title="The Biology of Consciousness: Case Studies in Kundalini"
-              body={<p>In this book, JJ Semple presents a collection of living case studies on Kundalini, documenting
+              href="/store/the-biology-of-consciousness"
+              body={<div><p>In this book, JJ Semple presents a collection of living case studies on Kundalini, documenting
                     the many ways Kundalini is awakened, including sexual ecstasy, meditation, drugs, emotional crises,
                     eye-gazing, and Shaktipat. Kundalini is a biological actuality. It is neither a supernatural cult,
                     nor a religion, nor a sect. You can’t be "converted" to Kundalini any more than you can be converted
-                    to a heart attack or an orgasm, or any other biological phenomenon.</p>}
+                    to a heart attack or an orgasm, or any other biological phenomenon.</p>
+                    <BuyFromAmazon href="https://amzn.to/2D2UnOw?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" /></div>}
             />
             <ImgBox
               image={bfm}
@@ -111,10 +115,12 @@ class Home extends Component {
               height="224px"
               alt="The Backward-Flowing Method book cover"
               title="The Backward-Flowing Method: The Secret of Life and Death"
-              body={<p>Want to live a longer, healthier life? This book proposes specific exercises on the subject,
+              href="/store/the-backward-flowing-method"
+              body={<div><p>Want to live a longer, healthier life? This book proposes specific exercises on the subject,
                     instructing readers in the backward-flowing method, a powerful meditation technique that can also
-                    be used to control addiction. JJ Semple explains how the backward-flowing method, <strong>a system for safe
-                    sexual sublimation,</strong> permanently activates Kundalini by stimulating neuroplastic activity in the brain.</p>}
+                    be used to control addiction. JJ Semple explains how <InnerLink content="the backward-flowing method" href="https://www.commonsensekundalini.com/science_spirituality/the-backward-flowing-method.html" />, <strong>a system for safe
+                    sexual sublimation,</strong> permanently activates Kundalini by stimulating neuroplastic activity in the brain.</p>
+                    <BuyFromAmazon href="https://amzn.to/2xphInu?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" /></div>}
             />
             <ImgBox
               image={sem}
@@ -122,9 +128,11 @@ class Home extends Component {
               height="224px"
               alt="Seminal Retention and Higher Consciousness book cover"
               title="Seminal Retention and Higher Consciousness: The Sexology of Kundalini"
-              body={<p>First, there’s a limited amount of semen in the male body. Neither you, nor I, can change this; it’s
+              href="/store/seminal-retention-and-higher-consciousness"
+              body={<div><p>First, there’s a limited amount of semen in the male body. Neither you, nor I, can change this; it’s
                     a biological fact. Second, although you can’t replenish what’s been lost, you can conserve what’s left.
-                    Higher consciousness and sexual sublimation (diverting sexual energy to the brain) are inextricably linked.</p>}
+                    Higher consciousness and sexual sublimation (diverting sexual energy to the brain) are inextricably linked.</p>
+                    <BuyFromAmazon href="https://amzn.to/2ph7QIM?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" /></div>}
             />
           </section>
           <section>
@@ -139,11 +147,13 @@ class Home extends Component {
               height="224px"
               alt="Female Kundalini book cover"
               title="Female Kundalini"
-              body={<p>In Margaret Dempsey’s case, years of Buddhist meditation, galvanized by a traumatic contact with an
+              href="/store/female-kundalini"
+              body={<div><p>In Margaret Dempsey’s case, years of Buddhist meditation, galvanized by a traumatic contact with an
                     attractive man, triggered the “uprising of Shakti.” Her honesty in not glamorizing her awakening attests
                     to its authenticity. The author’s real Self, to which Kundalini eventually brought her, is in evidence
                     from page one, as she describes her upbringing in Catholic Ireland, her days in a boarding school run by
-                    nuns, her training as a nurse, and her escape to London, New York and India.</p>}
+                    nuns, her training as a nurse, and her escape to London, New York and India.</p>
+                    <BuyFromAmazon href="https://amzn.to/2NOW8CR?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" /></div>}
             />
           </section>
           <section>
@@ -159,11 +169,12 @@ class Home extends Component {
               alt="Kundalini: The Evolutionary Energy in Man book cover"
               title="Kundalini: The Evolutionary Energy in Man"
               href="https://amzn.to/2C2xvhB"
-              body={<p>JJ Semple met Gopi Krishna in 1977 on a visit to Kashmir, four years after his own Kundalini awakening.
+              body={<div><p>JJ Semple met Gopi Krishna in 1977 on a visit to Kashmir, four years after his own Kundalini awakening.
                     After relating his Kundalini experience to Krishna, they talked about the effects of sexual activity on
                     kundalini energy, diet, the stress of work, travel, handling illness, and exercise. In his extraordinary
                     biographical account of his experience with the <strong>mysterious Kundalini Power,</strong> a book that is already a classic
-                    in its field, Gopi Krishna wraps his insights on kundalini around a powerful personal narrative.</p>}
+                    in its field, <InnerLink content="Gopi Krishna" href="https://www.commonsensekundalini.com/gopi_krishna.html" /> wraps his insights on kundalini around a powerful personal narrative.</p>
+                    <BuyFromAmazon href="https://amzn.to/2xo5KKI?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" /></div>}
             />
           </section>
         </div>

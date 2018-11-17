@@ -1,24 +1,17 @@
 import React, { Component } from 'react';
 import './footer.css';
 
-import {NavLink} from 'react-router-dom';
+import InnerLink from '../innerLink';
 
 class Footer extends Component {
   render() {
     return (
       <footer className="pageFooter">
         <div>
-          <p>© 2018 Life Force Books</p>
           <p>
-            <NavLink
-              exact={true}
-              role="button"
-              activeClassName="active"
-              className="navLink"
-              to="/disclaimer"
-            >
-              Disclaimer & Privacy Policy
-            </NavLink> | Site Map
+            © 2018 Life Force Books
+            <br />
+            <InnerLink content="Disclaimer & Privacy Policy" href="/disclaimer" />
           </p>
         </div>
       </footer>

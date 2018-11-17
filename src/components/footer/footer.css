@@ -6,9 +6,17 @@
 .pageFooter div {
   text-align: center;
   background-color: rgba(0,0,0,0.6);
+  width: 1200px;
+}
+
+.pageFooter div p {
   font-family: 'Roboto Condensed', sans-serif;
   color: #cdcdcd;
-  width: 1200px;
+  font-size: 16px;
+}
+
+.pageFooter div a {
+  font-size: 10px;
 }
 
 @media only screen and (max-width: 1119px) {

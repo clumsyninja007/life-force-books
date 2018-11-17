@@ -4,6 +4,9 @@ import Sidebar from '../components/sidebar/sidebar';
 
 import yoga from '../images/yogaretreat_med.jpeg';
 
+import InnerLink from '../components/innerLink';
+import OuterLink from '../components/outerLink';
+
 class LifeForceScience extends Component {
   render() {
     return (
@@ -14,8 +17,8 @@ class LifeForceScience extends Component {
               <h1>Life Force Science</h1>
             </header>
             <p>
-              <strong>If you’ve heard of Kundalini, you know it’s the Sanscrit term</strong> for the hidden
-              energy subsystem in the human body. You may also know that Life Force is the
+              <strong>If you’ve heard of Kundalini, you know it’s the Sanscrit term</strong> for the <InnerLink content="hidden
+              energy subsystem" href="https://www.commonsensekundalini.com/" /> in the human body. You may also know that Life Force is the
               closest jargon-free English approximation for the term Kundalini. I use the two
               terms interchangeably, even though the Sanscrit Kundalini is more widely employed.
               So whether you say Life Force, Chi, Orgone, or Kundalini, you’re probably aware of
@@ -36,21 +39,21 @@ class LifeForceScience extends Component {
               metaphysical world, using the empirically-based scientific method to verify his findings. To
               investigate metaphysical secrets, the Life Force scientist uses his/her body as a laboratory,
               never hesitating to experiment with his/her own being. Life Force Science is really an extension
-              of evolutionary biology. You see, Life Force scientists have found that Kundalini is capable of
+              of <InnerLink content="evolutionary biology" href="/store/the-backward-flowing-method" />. You see, Life Force scientists have found that Kundalini is capable of
               speeding up personal evolution, optimizing and refining the being during a single lifetime, so
-              that the next reincarnation of the energy field known as YOU will be more highly evolved.
+              that the next reincarnation of the energy field known as YOU will be <OuterLink content="more highly evolved" href="http://bit.ly/vBAmX3" />.
             </p>
             <p>
               The basis of Life Force Science is sexual alchemy, the term used for the process known as sexual
-              sublimation. Sound strange? Not if you realize that the Buddha, Jakob Böhme, Lao Tse, Gopi Krishna
+              sublimation. Sound strange? Not if you realize that the Buddha, <OuterLink content="Jakob Böhme" href="https://en.wikipedia.org/wiki/Jakob_B%C3%B6hme" />, Lao Tse, Gopi Krishna
               were Life Force scientists. In their own way, so were Louis Pasteur and Dr. Barry Marshall, the man
               who exposed himself to the bacteria causing ulcers in order to prove he discovered a cure in the
               laboratory of his own body.
             </p>
             <p>
               <strong>What’s more, whether you realize it or not,</strong> if you are a meditator, Yoga practitioner, an Alchemist,
-              a Raw Fooder, or Tai Chi student, you are a Life Force scientist. So is the person seeking to manage
-              his/her own health, supervise his/her personal growth, or direct his/her destiny. It’s all about
+              a <InnerLink content="Raw Fooder" href="https://www.goldenflowermeditation.com/raw_foods_2.html" />, or Tai Chi student, you are a Life Force scientist. So is the person seeking to manage
+              his/her own health, supervise his/her personal growth, or <InnerLink content="direct his/her destiny" href="/static/media/GoldenFlower05.mp3" />. It’s all about
               evolutionary transformation. That’s the goal of Life Force Science — transformation and rejuvenation.
               Only the labels separate us as individuals. Life Force, or Kundalini, cuts across all labels. So forget
               about the labels and concentrate on what works and what doesn’t. How can you know what works? Your body
