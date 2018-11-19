@@ -52,3 +52,10 @@ div.dropdownContent ul {
 div.dropdownContent a.navLink:hover {
   background-color: #55595c;
 }
+
+@media screen and (max-width: 800px) {
+  li.navitem:hover div.dropdownContent {
+    display: block;
+    position: relative;
+  }
+}

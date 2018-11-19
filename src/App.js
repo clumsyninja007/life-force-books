@@ -15,6 +15,7 @@ import EnergyCultivation from './pages/energy-cultivation';
 import Store from './pages/store';
 import Calendar from './pages/calendar';
 import SisterSites from './pages/sister-sites';
+import Announcements from './pages/announcements';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
@@ -117,8 +118,8 @@ class App extends Component {
                 render={(props) => <Calendar />}
               />
               <Route
-                exact path="/annoucements"
-                render={(props) => <div>Blah</div>}
+                exact path="/announcements"
+                render={(props) => <Announcements />}
               />
             </Switch>
           </div>
